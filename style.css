@@ -1,0 +1,97 @@
+.hero{
+    background-size: cover;
+    background-position: center;
+}
+li a:hover{
+  background-color: red;
+  text-decoration: none;
+}
+body{
+  height: 100px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: cyan;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif
+}
+
+img{
+  margin-left: 10px;
+}
+
+p, h3, ul, li{
+  text-align: left;  
+}
+
+#hp{
+  float: left;    
+ margin: 0 0 0 15px;
+  border-radius: 20px;
+}
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+li a {
+  display: block;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+.links{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+form {
+  display: grid;
+  justify-content: none;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel], select, textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  resize: vertical
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  color: red;
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: left;
+  padding-top: 16px;
+}
+.forms{
+  display: flex
+  justify-content: center;
+}

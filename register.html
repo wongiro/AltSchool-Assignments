@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+  <body>
+    <div class="hero">
+      <nav class="tablink">
+        <ul class="links">
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="calculator.html">Calculator</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="forms">
+      <form class="register">
+          <label  for="fname">Enter your first name: 
+            <br>
+              <input type="text" name="fname" id="fname" reqired>
+          </label>
+          <br>
+          <br>
+           <label  for="lname">Enter your last name: 
+            <br>
+              <input type="text" name="lname" id="lname" required>
+          </label>
+          <br>
+          <br>
+         <label  for="tel">Enter your Telephone number: 
+            <br>
+              <input type="tel" name="tel" id="tel" required>
+          </label>
+          <br>
+          <br>
+         <label  for="email">Enter your email: 
+            <br>
+              <input type="email" name="email" id="email" required>
+          </label>
+          <br>
+          <br>
+          <label for="country">Enter your country:
+            <br>
+              <input type="text" name="country" id="country" required>
+          </label>
+          <br>
+          <br>
+        <label  for="state">Enter your state/province: 
+            <br>
+              <input type="text" name="state" id="state" required>
+          <br>
+          <br>
+          <label  for="username">Enter your username: 
+            <br>
+              <input type="text" name="username" id="username" required minilength="3">
+          <br>
+          <br>
+            <label  for="password">Enter your password: 
+            <br>
+              <input type="password" name="password" id="password" required minilength="8">
+          <br>
+          <br>
+          <label  for="cpassword">Confirm your password: 
+            <br>
+              <input type="password" name="cpassword" id="cpassword" required minilength="8">
+          <br>
+          <br>
+          <label for="gender-select">Select gender:
+            <br>
+                      <select name="gender" id="gender-select" required> 
+                          <option value="">Select Gender</option>
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                          <option value="others">Others</option>
+                      </select>
+          </label>
+          <br>
+          <br>
+      </form>   
+          <br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <br>
+          <br>
+        <button type="Submit">Register</button>
+    </div>
+
+  </body>
+
+</html>
